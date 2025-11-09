@@ -1,7 +1,13 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
 *{
     margin: 0;
     list-style: none;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 .heder{
     background-color: #003366;
@@ -11,6 +17,7 @@
     justify-content: space-between;
     margin: 0;
     padding: 20px;
+    width: auto;
 }
 .but_log{
     background-color: #edbf20;
@@ -22,8 +29,9 @@
 .meno{
     display: flex;
 }
-.meno li{
-    margin-left:20px ;
+.meno:nth-child(2){
+    margin-left: 40px;
+    font-size: 80px;
 }
 .meno li a{
     color: aliceblue;
@@ -32,4 +40,9 @@
 
 .logo{
     width: 10%;
+}
+
+.dore{
+    display: flex;
+    justify-content: center;
 }
