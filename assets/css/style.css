@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.heder{
+    background-color: #003366;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+.but_log{
+    background-color: #edbf20;
+    color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 14px;
+}
+
+.meno{
+    display: flex;
+}
+.meno li{
+    margin-left:20px ;
+}
+.meno li a{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.logo{
+    width: 10%;
+}
